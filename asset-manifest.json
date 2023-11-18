@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e4647b97.css",
+    "main.js": "/static/js/main.78ac25f2.js",
+    "static/media/bewakoof.png": "/static/media/bewakoof.d173dc88b343d1fb5e9b.png",
+    "static/media/Mine-wine.png": "/static/media/Mine-wine.664b6e0b7d19ac55fcc1.png",
+    "static/media/Shruti_Jain_resume.pdf": "/static/media/Shruti_Jain_resume.2464cc684c86e382d249.pdf",
+    "static/media/portfolio_img.png": "/static/media/portfolio_img.0fc8ed69d494269a7ae9.png",
+    "static/media/profile-img.jpeg": "/static/media/profile-img.2e42924ae0280a582451.jpeg",
+    "index.html": "/index.html",
+    "main.e4647b97.css.map": "/static/css/main.e4647b97.css.map",
+    "main.78ac25f2.js.map": "/static/js/main.78ac25f2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e4647b97.css",
+    "static/js/main.78ac25f2.js"
+  ]
+}
