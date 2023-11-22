@@ -21,9 +21,9 @@ function App() {
     setBoolean(!boolean);
   }
 
-  const particlesInit = useCallback(main => {
-    loadFull(main);
-  }, [])
+  // const particlesInit = useCallback(main => {
+  //   loadFull(main);
+  // }, [])
 
   // useEffect(() => {
   //   Aos.init();
@@ -45,7 +45,7 @@ function App() {
         <Contact />
       </div>
       <Footer />
-      <Particles options={particlesOptions} init={particlesInit} />
+      {/* <Particles options={particlesOptions} init={particlesInit} /> */}
     </div>
   );
 }

@@ -329,6 +329,10 @@ a:hover {
     margin-left: 15rem;
 }
 
+.home-img {
+    width: 50%;
+}
+
 .circle {
     /* margin-left: 40rem; */
     position: relative;
@@ -358,7 +362,7 @@ a:hover {
 }
 
 .inner-circle img {
-    width: 410px;
+    width: 350px;
     background-size: cover;
 }
 
@@ -532,12 +536,32 @@ a:hover {
     background: rgb(255, 107, 107, .1);
 }
 
-@media screen and (min-width:700px) {
+@media screen and (min-width:700px) and (max-width:1023px) {
     .info {
         font-size: 20px;
     }
+    .hero {
+        flex-direction: column;
+    }
+    .home-img-cont {
+        margin-top: 25rem;
+        margin-left: -5rem;
+    }
+    #about {
+        margin-top: 23rem;
+    }
+    #github-stat {
+        flex-direction: column;
+    }
     .give-padding {
         padding: 20px 150px;
+    }
+    #contact-icons {
+        margin-top: 2rem;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        list-style: none;
+        margin-left: 2rem;
     }
 }
 
@@ -554,6 +578,9 @@ a:hover {
     }
     #github-stat {
         flex-direction: column;
+    }
+    #contact-icons {
+        display: none;
     }
 }
 
@@ -842,13 +869,31 @@ ul.tech-used li {
     scale: 1.2;
 }
 
-@media screen and (m-width:800px) {
+
+/* for small devices */
+
+
+/* @media screen and (max-width: 320px) */
+
+
+/* For medium devices */
+
+
+/* @media screen and (min-width: 576px) */
+
+
+/* For large devices */
+
+
+/* @media screen and (min-width: 1023px) */
+
+@media screen and (min-width:800px) and (max-width:1023px) {
     .project-card {
-        /* grid-template-columns: repeat(2, 1fr); */
-        display: block;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
     }
     .project-img img {
-        height: 400px;
+        height: 300px;
     }
     .project-info {
         background: transparent;
@@ -860,14 +905,36 @@ ul.tech-used li {
         /* padding: 25px; */
         text-align: center;
     }
-    .project-card:nth-child(2n+0) .project-info {
+    /* .project-card:nth-child(2n+0) .project-info {
         text-align: right;
     }
     .project-card:nth-child(2n+0) .project-info {
         grid-area: 1 / 6 / -1 / -1;
-    }
+    } */
     .project-description {
         border: 1px solid var(--light-red);
+    }
+}
+
+@media screen and (max-width:800px) {
+    .project-card {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .project-img img {
+        width: 70%;
+        height: 200px;
+        margin-left: 100px;
+    }
+    .project-info {
+        background: transparent;
+        opacity: 1;
+        border: none;
+        text-align: center;
+    }
+    .project-description {
+        /* padding: 25px; */
+        text-align: center;
     }
 }
 

@@ -15,7 +15,7 @@ export default function getProjects() {
             image: 'Mine-wine.png',
             projectInfo: "It's a clone of Mine-Wine app created using HTML, CSS, Javascript",
             techUsed: ["HTML", "CSS", "Javascript"],
-            projectLinkHosted: "",
+            projectLinkHosted: "https://655e1490fd1a4138593e6c56--capable-eclair-1ae3b7.netlify.app/",
             projectLinkGithub: "https://github.com/Shrutij512/Wine_shop-Project",
         },
         {
