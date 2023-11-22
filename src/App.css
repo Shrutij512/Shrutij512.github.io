@@ -325,8 +325,8 @@ a:hover {
 /* Profile Pic */
 
 .home-img-cont {
-    margin-right: -5rem;
-    margin-left: 15rem;
+    margin-right: 2rem;
+    margin-left: 10rem;
 }
 
 .home-img {
@@ -448,6 +448,7 @@ a:hover {
     padding-left: 5px;
     letter-spacing: 2px;
     color: var(--lighter-red);
+    margin-left: 60px;
 }
 
 .name {
@@ -539,6 +540,7 @@ a:hover {
 @media screen and (min-width:700px) and (max-width:1023px) {
     .info {
         font-size: 20px;
+        margin-left: -1.2rem;
     }
     .hero {
         flex-direction: column;
@@ -568,6 +570,10 @@ a:hover {
 @media screen and (max-width:700px) {
     .hero {
         flex-direction: column;
+    }
+    .info {
+        font-size: 20px;
+        margin-left: -1.2rem;
     }
     .home-img-cont {
         margin-top: 15rem;
@@ -943,6 +949,14 @@ ul.tech-used li {
 
 
 /* Contact */
+
+#contact-icons {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    list-style: none;
+    margin-left: 2rem;
+}
 
 #contact {
     min-height: 500px;
