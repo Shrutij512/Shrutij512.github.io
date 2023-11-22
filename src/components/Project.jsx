@@ -35,7 +35,7 @@ export default function Projects() {
                 <div className="project-description">{project.projectInfo}</div>
                 <ul className="tech-used project-tech-stack">
                   {project.techUsed.map((tech, index) => (
-                    <li  key={index}>{tech}</li>
+                    <li key={index}>{tech}</li>
                   ))}
                 </ul>
                 <div className="project-links">
@@ -49,7 +49,7 @@ export default function Projects() {
               </div>
             </div>
           ))}
-          <div style={{textAlign:"center",marginTop:'1.5rem' ,paddingTop:"10px"}}>
+          <div style={{ textAlign: "center", marginTop: '1.5rem', paddingTop: "10px" }}>
           </div>
         </div>
       </div>

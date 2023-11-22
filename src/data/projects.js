@@ -21,11 +21,20 @@ export default function getProjects() {
         {
             id: 3,
             projectTitle: "Carver Skateboards",
-            image: 'Mine-wine.png',
+            image: 'carver-skateboards.png',
             projectInfo: "About Experience urban wave riding with our high-quality skateboards. This repository features a user-friendly ecommerce website with Razorpay integration for seamless payments.",
             techUsed: ["React", "JSON-server"],
             projectLinkHosted: "https://650c065e34b6d7008525689c--effulgent-granita-28ab37.netlify.app/",
             projectLinkGithub: "https://github.com/anasrashid-1/carverskateboards",
+        },
+        {
+            id: 4,
+            projectTitle: "My portfolio",
+            image: 'portfolio_img.png',
+            projectInfo: "My portfolio is a testament to my skills, passion, and dedication. Within these pages, you'll find a collection of projects that I've carefully crafted, each representing a unique blend of creativity and expertise.",
+            techUsed: ["React", "HTML", "CSS"],
+            projectLinkHosted: "https://shrutij512.github.io/",
+            projectLinkGithub: "https://github.com/Shrutij512/Shrutij512.github.io",
         }
     ];
 }

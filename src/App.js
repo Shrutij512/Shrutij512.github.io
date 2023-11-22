@@ -23,12 +23,12 @@ function App() {
 
   const particlesInit = useCallback(main => {
     loadFull(main);
-}, [])
-  
-  useEffect(() => {
-    Aos.init();
-    Aos.refresh();
-  }, []);
+  }, [])
+
+  // useEffect(() => {
+  //   Aos.init();
+  //   Aos.refresh();
+  // }, []);
 
   return (
     <div className="App">
@@ -45,7 +45,7 @@ function App() {
         <Contact />
       </div>
       <Footer />
-      <Particles options={particlesOptions} init={particlesInit}/>
+      <Particles options={particlesOptions} init={particlesInit} />
     </div>
   );
 }
