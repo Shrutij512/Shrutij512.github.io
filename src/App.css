@@ -576,11 +576,11 @@ a:hover {
     .outer-circle {
         margin-top: 62%;
         margin-left: 23%;
-        width: 63%;
+        width: 69%;
         height: 43%;
     }
     #user-detail-name {
-        font-size: x-large;
+        font-size: xx-large;
     }
     .inner-circle img {
         width: 115%;
@@ -588,7 +588,7 @@ a:hover {
         margin-left: -8%;
     }
     .info {
-        font-size: 10px;
+        font-size: 15px;
         margin-left: 0.1rem;
     }
     .home-img-cont {
