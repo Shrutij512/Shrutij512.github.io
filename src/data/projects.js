@@ -4,7 +4,7 @@ export default function getProjects() {
             id: 1,
             image: 'bewakoof.png',
             projectTitle: "Bewakoog Clone",
-            projectInfo: "clone of bewakoof ecommerce",
+            projectInfo: "This is clone of bewakoof.com ,that allows users to buy a variety of clothes of different category.",
             techUsed: ["JavaScript", "HTML", "CSS"],
             projectLinkHosted: "https://647dee0e37f98815af0aa4fe--glittery-pika-ebf20b.netlify.app/",
             projectLinkGithub: "https://github.com/Shrutij512/bewakoof_clone",
