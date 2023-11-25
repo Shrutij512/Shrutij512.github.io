@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.4b0c4cba.css",
+    "main.css": "/static/css/main.5420e4f2.css",
     "main.js": "/static/js/main.f88b53f8.js",
     "static/media/personal.jpg": "/static/media/personal.b4c7d290f6cfbcdfa42c.jpg",
     "static/media/carver-skateboards.png": "/static/media/carver-skateboards.6a412a52aaab9ed79dbb.png",
@@ -9,11 +9,11 @@
     "static/media/Shruti_Jain_resume.pdf": "/static/media/Shruti_Jain_resume.a24a7d2b8b595602510f.pdf",
     "static/media/portfolio_img.png": "/static/media/portfolio_img.7ccce8b2bae4c06fbf09.png",
     "index.html": "/index.html",
-    "main.4b0c4cba.css.map": "/static/css/main.4b0c4cba.css.map",
+    "main.5420e4f2.css.map": "/static/css/main.5420e4f2.css.map",
     "main.f88b53f8.js.map": "/static/js/main.f88b53f8.js.map"
   },
   "entrypoints": [
-    "static/css/main.4b0c4cba.css",
+    "static/css/main.5420e4f2.css",
     "static/js/main.f88b53f8.js"
   ]
 }
