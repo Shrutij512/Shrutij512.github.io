@@ -574,21 +574,26 @@ a:hover {
         flex-direction: column;
     }
     .outer-circle {
-        margin-top: 150px;
-        margin-left: 116px;
-        width: 311px;
-        height: 311px;
+        margin-top: 62%;
+        margin-left: 23%;
+        width: 63%;
+        height: 43%;
+    }
+    #user-detail-name {
+        font-size: x-large;
     }
     .inner-circle img {
-        width: 330px;
+        width: 115%;
+        margin-top: 18%;
+        margin-left: -8%;
     }
     .info {
-        font-size: 20px;
-        margin-left: -1.2rem;
+        font-size: 10px;
+        margin-left: 0.1rem;
     }
     .home-img-cont {
-        margin-top: 15rem;
-        margin-left: -5rem;
+        margin-top: 1rem;
+        margin-left: 0.5rem;
     }
     #about {
         margin-top: 20rem;
@@ -597,6 +602,10 @@ a:hover {
     }
     #github-stat {
         flex-direction: column;
+        width: 90%;
+    }
+    #github-top-langs {
+        width: 98%;
     }
     #contact-icons {
         display: none;
